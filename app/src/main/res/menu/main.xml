@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/icon_search"
+        android:title="Search"
+        app:showAsAction="always" />
+    <!--app:actionViewClass="android.support.v7.widget.SearchView"-->
+    <item
+        android:id="@+id/create_folder"
+        android:icon="@drawable/icon_create_folder"
+        android:title="Create Folder"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/paste"
+        android:icon="@drawable/icon_paste"
+        android:title="Paste" />
+
+    <item android:title="Sort by">
+        <menu>
+            <item
+                android:id="@+id/file_type"
+                android:icon="@drawable/icon_sort_file"
+                android:title="File Type" />
+            <item
+                android:id="@+id/A_Z"
+                android:icon="@drawable/icon_a_z"
+                android:title="A-Z" />
+            <item
+                android:id="@+id/Z-A"
+                android:icon="@drawable/icon_z_a"
+                android:title="Z-A" />
+            <item
+                android:id="@+id/newest_modified"
+                android:icon="@drawable/icon_date"
+                android:title="Newest Modified" />
+            <item
+                android:id="@+id/oldest_modified"
+                android:icon="@drawable/icon_date2"
+                android:title="Oldest Modified" />
+            <item
+                android:id="@+id/biggest"
+                android:icon="@drawable/icon_small_big"
+                android:title="Bigger Size" />
+            <item
+                android:id="@+id/smallest"
+                android:icon="@drawable/icon_big_small"
+                android:title="Smallest Size" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/log_out"
+        android:icon="@drawable/icon_log_out"
+        android:title="Log Out"/>
+</menu>
